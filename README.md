@@ -17,7 +17,7 @@ Getting Started
 
 1.	[Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2.	[Download and install Vagrant](http://www.vagrantup.com/downloads.html).
-3.	Run `vagrant box add centos65 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box`
+3.	Run `vagrant box add centos65 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20131205.box`
 4.	Git clone this project, and change directory (cd) into this project (directory).
 5.	Run `vagrant up` to create the VM.
 6.	Run `vagrant ssh` to get into your VM.
