@@ -7,7 +7,7 @@ HADOOP_PREFIX=/usr/local/hadoop
 HADOOP_CONF=$HADOOP_PREFIX/etc/hadoop
 HADOOP_VERSION=hadoop-2.6.0
 HADOOP_ARCHIVE=$HADOOP_VERSION.tar.gz
-HADOOP_MIRROR_DOWNLOAD=http://apache.claz.org/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz
+HADOOP_MIRROR_DOWNLOAD=https://archive.apache.org/dist/hadoop/core/hadoop-2.6.0/hadoop-2.6.0.tar.gz
 HADOOP_RES_DIR=/vagrant/resources/hadoop
 #spark
 SPARK_VERSION=spark-1.4.1 #Change this for new version
@@ -27,7 +27,7 @@ PIG_CONF_DIR=/usr/local/pig/conf
 #HIVE
 HIVE_VERSION=apache-hive-1.2.1-bin
 HIVE_ARCHIVE=$HIVE_VERSION.tar.gz
-HIVE_MIRROR_DOWNLOAD=http://mirror.tcpdiag.net/apache/hive/stable/apache-hive-1.2.1-bin.tar.gz
+HIVE_MIRROR_DOWNLOAD=https://archive.apache.org/dist/hive/hive-1.2.1/apache-hive-1.2.1-bin.tar.gz
 HIVE_RES_DIR=/vagrant/resources/hive
 HIVE_CONF_DIR=/usr/local/hive/conf
 
